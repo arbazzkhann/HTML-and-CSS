@@ -1,0 +1,112 @@
+#container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#div1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+#div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+}
+
+#div3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+
+#div4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+
+#div5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    transition: all 2s ease-in 1s; /*Shorthand Transition*/
+}
+
+
+#div1:hover {
+    background-color: green;
+    border: 5px dotted red;
+    font-size: 27px;
+    color : rgb(49, 47, 148);
+}
+#div2:hover {
+    background-color: green;
+    border: 5px dotted red;
+    font-size: 27px;
+    color : rgb(49, 47, 148);
+}
+#div3:hover {
+    background-color: green;
+    border: 5px dotted red;
+    font-size: 27px;
+    color : rgb(49, 47, 148);
+}
+#div4:hover {
+    background-color: green;
+    border: 5px dotted red;
+    font-size: 27px;
+    color : rgb(49, 47, 148);
+}
+#div5:hover {
+    background-color: green;
+    border: 5px dotted red;
+    font-size: 27px;
+    color : rgb(49, 47, 148);
+}
+
+.sub-divs {
+    margin: 5px;
+}
+
+/* div:active {
+    background-color: green;
+    border: 5px solid red;
+} */

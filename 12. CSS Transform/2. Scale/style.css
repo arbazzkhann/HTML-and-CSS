@@ -1,0 +1,32 @@
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    border: 5px solid black;
+    margin-top: 70px;
+}
+
+.sub-divs {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#div1 {
+    transform: scale(.5);
+}
+
+/* #div2 {
+    transform: scale(2,3);
+} */
+
+/* #div3 {
+    transform: scaleX(2);
+} */
+/* 
+#div4 {
+    transform: scaleY(2);
+} */

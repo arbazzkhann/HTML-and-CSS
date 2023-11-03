@@ -1,0 +1,31 @@
+.container {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-divs {
+    border-radius: 12px;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* 1. Creating Color Changing Animation */
+@keyframes colorAnimation {
+    from {background-color: aqua;}
+    to {background-color: red;}
+}
+
+/* Applying Animation */
+.sub-divs {
+    animation-name: colorAnimation;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;   
+}

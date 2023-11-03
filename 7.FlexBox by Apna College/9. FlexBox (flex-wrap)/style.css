@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+div {
+    border: 2px solid black;
+}
+
+
+#mainDiv {
+    height: 250px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap; /*nowrap// wrap// wrap-reverse*/
+}
+
+.boxes {
+    height: 100px;
+    width: 100px;
+}
+
+        #box1 {
+            background-color: rgb(224, 90, 90);
+        }
+        #box2 {
+            background-color: rgb(72, 85, 197);
+        }        
+        #box3 {
+            background-color: rgb(175, 212, 38);
+        }        
+        #box4 {
+            background-color: rgb(157, 110, 245);
+        }        
+        #box5 {
+            background-color: rgb(69, 214, 76);
+        }

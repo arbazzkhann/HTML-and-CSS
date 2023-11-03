@@ -1,0 +1,28 @@
+/* 
+Step 1 : create div with circular shape & a thick borader from
+         from one end (top/bottom/left/right)
+Step 2 : to make it spin crate an animation which tranforms it from
+         0deg to 360deg.
+Step 3 : Add the animation property to the loader with infinite duration.
+*/
+
+.loader { 
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 15px solid #141E46;
+    border-top: 15px solid #C70039;
+}
+
+@keyframes rotation {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+/* Applying Animation */
+.loader {
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+

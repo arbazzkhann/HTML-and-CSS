@@ -1,0 +1,43 @@
+div {
+    height: 100px;
+}
+
+#container {
+    display: flex;
+
+}
+
+#div1 {
+    background-color: aqua;
+}
+
+#div2 {
+    background-color: rgb(17, 180, 71);
+}
+
+#div3 {
+    background-color: rgb(123, 173, 4);
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+    #div1 {
+        background-color: orange;
+        width: 70px;
+
+    }
+    #div2 {
+        background-color: rgb(255, 255, 255);
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #div3 {
+        background-color: green;
+        width: 70px;
+    }
+
+    #circle-img {
+        height: 50px;
+    }
+} 

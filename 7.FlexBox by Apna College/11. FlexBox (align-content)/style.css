@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+div {
+    border: 2px solid black;
+}
+
+#mainDiv {
+    height: 500px;
+    width: 410px;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* align-items: center; */
+    align-content: flex-start; /*flext-start// flext-end// */
+    
+}
+
+.boxes {
+    height: 100px;
+    width: 100px;
+}
+
+            #box1 {
+                background-color: aqua;
+            }
+            #box2 {
+                height: 200px;
+                background-color: rgb(155, 83, 223);
+                align-self: flex-end;
+            }
+            #box3 {
+                background-color: rgb(27, 185, 40);
+            }
+            #box4 {
+                background-color: rgb(233, 236, 22);
+            }
+            #box5 {
+                background-color: rgb(247, 78, 204);
+            }

@@ -1,0 +1,16 @@
+nav ol li{
+    color: red;
+    background-color: blue; /*background without list*/
+    border: 2px solid red;  /*Border without list*/
+}
+
+nav ul li{
+    color: blue;
+    background-color: red;
+    list-style-position: inside; /*list is under the */
+    border: 2px solid blue;  /*Border with list*/
+}
+
+nav {
+    color: green;
+}

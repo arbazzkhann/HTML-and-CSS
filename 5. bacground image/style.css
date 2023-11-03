@@ -1,0 +1,31 @@
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    font-size: 22px;
+}
+
+#box1 {
+    background-color: green;
+    background-image: url("car_image.jpg");
+    background-size: cover ;
+    background-position: -235px;
+}
+
+#box2 {
+    background-color: red;
+    background-image: url("car_image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#box3 {
+    background-color: orange;
+    background-image: url("car_image.jpg");
+    background-size: auto;
+}
+
+#box4 {
+    background-color: blue;
+}

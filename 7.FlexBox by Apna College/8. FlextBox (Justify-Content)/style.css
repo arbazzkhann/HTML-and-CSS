@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+div {
+    border: 2px solid black;
+}
+
+#mainDiv {
+    height: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly; /*flext-start// flex-end// center// space-evenly*/    
+}
+
+.boxes {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: rgb(117, 78, 224);
+}
+
+#box3 {
+    background-color: rgb(182, 219, 46);
+}
+
+#box4 {
+    background-color: rgb(252, 119, 30);
+}
+
+#box5 {
+    background-color: rgb(235, 77, 195);
+}

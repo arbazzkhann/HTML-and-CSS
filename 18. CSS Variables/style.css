@@ -1,0 +1,43 @@
+/* YouTube Channel: Code with Harry */
+/* Video Link: https://youtu.be/ovRU9xHfly4 */
+
+/***************************************************************************/
+/**************************** Variables in CSS *****************************/
+
+/* 
+Syntax-->>>
+            
+    Creating Variable -->>
+                            :root {
+                                --variable_name : properties;
+                            }
+
+    for using Variables -->> 
+                            property = var(--variable_name);
+
+*/
+
+
+* {
+    background-color: #212121;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Creating Variable */
+:root {
+    --color: blue;
+    --secColor:red;
+}
+
+/* Using Variable */
+.heading2 h2 {
+    color: var(--color);
+}
+
