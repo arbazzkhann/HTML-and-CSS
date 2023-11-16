@@ -1,0 +1,38 @@
+body {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-navbar {
+    width: 95vw;
+    background-color: #777474;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+}
+
+.nav-container {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 8px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-img {
+    height: 50px;
+    display: absolute;
+}
+
+.menu-content {
+    display: flex;
+    gap: 20px
+}
+
+li {
+    list-style-type: none;
+    margin-top: 14px;
+}
