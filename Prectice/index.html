@@ -6,16 +6,29 @@
   <title>CSS Positions</title>
   <link rel="stylesheet" href="style.css">
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
     .container {
       height: 400px;
-      width: 90vw;
+      border: 0.5px solid black;
+      width: 80vw;
+      margin-left: 50px;
+      margin-top: 30px;
       background-color: orange;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 10px;
+
+      /* position: relative; */
     }
 
     .box {
-      border: 2px solid black;
-      height: 70px;
+      height: 60%;
       width: 80%;
+      border: 2px solid black;
     }
 
     .box1 {
@@ -23,15 +36,31 @@
     }
 
     .box2 {
-      background-color: blueviolet;
+      background-color: rgb(255, 0, 0);
     }
 
     .box3 {
-      background-color: cadetblue;
+      background-color: blueviolet;
     }
 
     .box4 {
-      background-color: chocolate;
+      background-color: rgb(248, 8, 168);
+    }
+
+    .box2 {
+      /* position: relative; */
+      /* position: absolute; */
+      /* position: static; */
+      /* top: 250px; */
+      /* left: 70px; */
+      /* z-index: 3; */
+      /* left: 30; */
+    }
+    
+    .box3 {
+      position: fixed;
+      top: 0px;
+      height: 20px;
     }
 
 
