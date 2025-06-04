@@ -5,21 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #myButton {
-            color: black;
-            background-color: green;
-            background-color: red;
+        input::placeholder {
+            color: #212121;
         }
 
-        #myButton:hover {
-            color: white;
+        input {
             background-color: green;
+        }
+
+        input:hover {
+            color: white;
+            background-color: purple;
+        }
+
+        input:focus {
+            color: blue;
+            background-color: aqua;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <button id="myButton">Click Me!</button>
+        <input type="text" placeholder="Full Name">
     </div>
 </body>
 </html>
