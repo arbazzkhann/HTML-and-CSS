@@ -22,11 +22,22 @@
             color: blue;
             background-color: aqua;
         }
+
+        p::before {
+            content: "Before";
+            color: red
+        }
+
+        p::after {
+            content: "After";
+            color: red;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <input type="text" placeholder="Full Name">
+        <p>Hello world</p>
     </div>
 </body>
 </html>
