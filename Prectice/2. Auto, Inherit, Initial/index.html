@@ -1,48 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=300px, initial-scale=.1.0">
     <title>Document</title>
-    <style>
-        input::placeholder {
-            color: #212121;
-        }
+  </head>
+  <body>
 
-        input {
-            background-color: green;
-        }
+<div class="bounce-box">Bounce!</div>
 
-        input:hover {
-            color: white;
-            background-color: purple;
-        }
+<style>
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px); /* Move up */
+  }
+}
 
-        input:focus {
-            color: blue;
-            background-color: aqua;
-        }
+.bounce-box {
+  width: 150px;
+  height: 100px;
+  background-color: gold;
+  color: black;
+  text-align: center;
+  line-height: 100px;
+  animation: bounce 1s ease-in-out infinite; /* Infinite bounce */
+}
+</style>
 
-        p::before {
-            content: "Before";
-            color: red
-        }
 
-        p::after {
-            content: "After";
-            color: red;
-        }
-
-        input {
-            /* opacity: 0; */
-            visibility: hidden;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <input type="text" placeholder="Full Name">
-        <p>Hello world</p>
-    </div>
-</body>
+  </body>
 </html>
