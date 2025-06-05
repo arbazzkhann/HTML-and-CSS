@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            height: 70px;
+            width: 70vw;
+            border-radius: 20%;
+            background-color: orange;
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            height: 30%;
+            width: 16%;
+            border-radius: 20%;
+            margin-right: 10px;
+        }
+
+        .box1 {
+            background-color: red;
+        }
+        .box2 {
+            background-color: gray;
+        }
+        .box3 {
+            background-color: blue;
+        }
+        .box4 {
+           background-color: purple;
+        }
+    </style>
+    <script type="module">
+        let box1 = document.querySelector('.box1');
+        let box2 = document.querySelector('.box2');
+        let box3 = document.querySelector('.box3');
+        let box4 = document.querySelector('.box4');
+        let reset = document.querySelector('#reset');
+
+        box1.addEventListener('click', () => {
+            document.querySelector('body').style.backgroundColor = 'red';
+        });
+        box2.addEventListener('click', () => {
+            document.querySelector('body').style.backgroundColor = 'gray';
+        });
+        box3.addEventListener('click', () => {
+            document.querySelector('body').style.backgroundColor = 'blue';
+        });
+        box4.addEventListener('click', () => {
+            document.querySelector('body').style.backgroundColor = 'purple';
+        });
+        reset.addEventListener('click', () => {
+            document.querySelector('body').style.backgroundColor = 'white';
+        })
+        
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+    <button id="reset">Reset</button>
+</body>
+</html>
