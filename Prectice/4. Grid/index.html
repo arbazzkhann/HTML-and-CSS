@@ -21,8 +21,10 @@
             row-gap: 1rem;
             column-gap: 1rem;
 
-            grid-template-rows: 100px 100px;
-            grid-template-columns: 100px 100px 100px;
+            /* grid-template-rows: 1fr 1fr 1fr; */
+            grid-template-rows: repeat(3, 1fr);
+            /* grid-template-columns: 100px 100px 100px; */
+            grid-template-columns: repeat(3, 1fr);
 
 
         }
@@ -30,6 +32,11 @@
         .box{
             background-color: rgb(53, 53, 250);
             border: 2px solid black;
+        }
+
+        .box1 {
+            grid-column-start: 1;
+            grid-column-end: 4;
         }
     </style>
 </head>
